@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Order</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">MENU</a>
+        <a href="#">REWARDS</a>
+        <a href="#">LOCATIONS</a>
+        <a href="#">GIFT CARDS</a>
+        <a href="#">LOG IN</a>
+        <div class="shopping">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="quantity">0</span>
+        </div>
+        <button>ORDER NOW</button>
+    </div>
+    <h1 id="titleName">CHICKEN CRISPER® COMBOS</h1>
+    <h3>Find everything from our Big Mouth Burgers®, our always sizzling, Full-on Fajitas and our famous Chicken Crispers®</h3>
+    <div class="container">
+        <div class="itemDetails">
+            <div id="chicken"></div>
+            <h4>Chicken</h4>
+            <p>69$/each</p>
+            <p>Chicken fajitas served with rice and beans, tortillas..</p>
+            <button id="addCart">Add to cart</button>
+            <button id="custom">Customize</button>
+        </div>
+        <div class="itemDetails">
+            <div id="fajitas"></div>
+            <h4>Fajitas</h4>
+            <p>169$/each</p>
+            <p>Chicken fajitas served with rice and beans, tortillas..</p>
+            <button id="addCart">Add to cart</button>
+            <button id="custom">Customize</button>
+        </div>
+        <div class="itemDetails">
+            <div id="chickenMasala"></div>
+            <h4>Chicken Masala</h4>
+            <p>269$/each</p>
+            <p>Chicken fajitas served with rice and beans, tortillas..</p>
+            <button id="addCart">Add to cart</button>
+            <button id="custom">Customize</button>
+        </div>
+    </div>
+    <div class="cartTab">
+        <div class="viewShop">
+            <div class="logoQuant">
+                <i class="fa-solid fa-bag-shopping"></i>
+                <p id="quant">1 item</p>
+            </div>
+            <div class="btn1">
+                <button class="close">Close</button>
+            </div>   
+        </div>
+        <h1>Cart</h1>
+        <div class="listCart">
+        </div>
+        <div class="btn2">
+            <button class="placeOrder">Place Order</button>
+            <p id="amount">100$</p>
+        </div>
+    </div>
+     
+    <script src="app.js"></script> 
+</body>
+</html>

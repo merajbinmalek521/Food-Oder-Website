@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #f5ebe0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbar button {
+    background-color: #e5383b;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+a {
+    margin-right: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+#titleName {
+    color: #e5383b;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.shopping i {
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.shopping span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #e5383b;
+    color: white;
+    border-radius: 50%;
+    top: 20%;
+    right: 40.5%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    min-width: 1000px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.itemDetails {
+    min-height: 490px;
+    min-width: 330px;
+    border-style: none;
+    background-color: #f0f0eb;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.itemDetails h4 {
+    margin-top: 1rem;
+    font-weight: 900;
+}
+
+.itemDetails #addCart {
+    height: 40px;
+    width: 320px;
+    margin-top: 1rem;
+    background-color: #e5383b;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.itemDetails #custom {
+    height: 40px;
+    width: 320px;
+    margin-top: 1rem;
+    background-color: white;
+    color: orangered;
+    border: 1px solid orangered;
+    cursor: pointer;
+}
+
+#chicken {
+    min-height: 300px;
+    min-width: 300px;
+    background-image: url('Images/chicken.png');
+    background-size: cover;
+}
+
+#fajitas {
+    min-height: 300px;
+    min-width: 300px;
+    background-image: url('Images/fajitas.png');
+    background-size: cover;
+}
+
+#chickenMasala {
+    min-height: 300px;
+    min-width: 300px;
+    background-image: url('Images/chicken\ masala.png');
+    background-size: cover;
+}
+
+/* cart styling */
+
+.cartTab{
+    width: 240px;
+    background-color: #e5383b;
+    color: black;
+    position: fixed;
+    inset: 0 0 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+
+.cartTab h1{
+    color: white;
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* .cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cartTab .btn button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+} */
+
+.cartTab .viewShop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 30px;
+}
+
+.cartTab .logoQuant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #e5383b;
+}
+
+.cartTab .logoQuant i {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.cartTab .btn1 button{
+    background-color: white;
+    border: 1px solid #e5383b;
+    color: #e5383b;
+    border-radius: 5px;
+    width: 50px;
+}
+
+.cartTab .btn2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: #e5383b;
+    height: 30px;
+}
+
+.cartTab .btn2 button{
+    background-color: white;
+    color: #e5383b;
+    border: none;
+}
+
+
+
